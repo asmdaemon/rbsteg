@@ -4,7 +4,7 @@ Not same LSB Steganography, can not reversively get text back from image, if you
 
 #Installation
 
-make
+make ;
 make install
 
 #Usage
