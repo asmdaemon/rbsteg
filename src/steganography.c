@@ -67,8 +67,8 @@ static void print_usage()
 	}
 
 	fprintf(stderr, "\nUsage example:\n");
-	fprintf(stderr, "\tEncrypt data from input.txt in png test.png: %s -m encryption -k gfhjkm -i test.png < input.txt\n", PROGRAM_NAME);
-	fprintf(stderr, "\tDecrypt data from test.png and put output in output.txt: %s -m decryption -k gfhjkm -i test.png > output.txt\n", PROGRAM_NAME);
+	fprintf(stderr, "\tEncrypt data from input.txt in png test.png: %s -m encryption -k cegthgfhjkm -i test.png < input.txt\n", PROGRAM_NAME);
+	fprintf(stderr, "\tDecrypt data from test.png and put output in output.txt: %s -m decryption -k cegthgfhjkm -i test.png > output.txt\n", PROGRAM_NAME);
 }
 
 static int init_decrypting_data(const char* type, const char* inputfile)
