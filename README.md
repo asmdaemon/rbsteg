@@ -17,6 +17,7 @@ Usage: rbsteg [-t filetype] -m encryption | decryption -k encryptionkey -i input
 
 Usage example:
 	Encrypt data from input.txt in png test.png: rbsteg -m encryption -k cegthgfhjkm -i test.png < input.txt
+
 	Decrypt data from test.png and put output in output.txt: rbsteg -m decryption -k cegthgfhjkm -i test.png > output.txt
 
 Currently supported only PNG file format.
