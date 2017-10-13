@@ -21,4 +21,6 @@ Usage example:
 
 Currently supported only PNG file format.
 
+License GPL 2.0
+
 #END
