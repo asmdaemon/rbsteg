@@ -19,7 +19,7 @@ Usage example:
 
 	Encrypt data: rbsteg -m encryption -k cegthgfhjkm -i test.png < input.txt
 
-	Decrypt data: from test.png and put output in output.txt: rbsteg -m decryption -k cegthgfhjkm -i test.png > output.txt
+	Decrypt data: rbsteg -m decryption -k cegthgfhjkm -i test.png > output.txt
 
 Currently supported only PNG file format.
 
